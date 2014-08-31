@@ -67,6 +67,7 @@ container.addEventListener('change', function (e) {
         var response = document.createElement('div');
         response.setAttribute('id', 'response');
         
+        //parseInt turns string value into integer value
         if (parseInt(countries[countriesSelect.value]) >= parseInt(stayLengthSelect.value)) {
                 response.innerHTML = 'No Visa required';
         } else {
