@@ -63,7 +63,7 @@ container.addEventListener('change', function (e) {
         container.removeChild(oldResponse);
     }
     if (stayLengthSelect.value !== 'How long will you be staying?' && countriesSelect.value !== 'Please select a country') {
-        console.log(parseInt(countries[countriesSelect.value]), parseInt(stayLengthSelect.value));
+        //console.log(parseInt(countries[countriesSelect.value]), parseInt(stayLengthSelect.value));
         var response = document.createElement('div');
         response.setAttribute('id', 'response');
         
