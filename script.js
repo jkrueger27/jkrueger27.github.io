@@ -32,6 +32,7 @@ countriesSelect.appendChild(countriesDefault);
 stayLengthSelect.appendChild(stayLengthDefault);
 
 //set up first select options (countriesSelect)
+//forEach is alternative to "for (var i = 1; i < 11; i = i + 1)" style loop
 Object.keys(countries).forEach(function (country) {
     var option = document.createElement('option');
     
